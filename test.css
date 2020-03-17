@@ -1,0 +1,134 @@
+#css-zen-garden{
+    background-image: url(http://csszengarden.com/001/blossoms.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat ;
+    font: 80% georgia, sans-serif;
+    color: rgb(51, 37, 27);
+    text-align: justify;
+
+
+
+}
+.page-wrapper{
+    background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat ;
+    background-position-x: 0;
+    background-position-y: 0; 
+    width: 80%;
+    line-height:2rem;
+    padding: 1.4rem;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: .7rem;
+
+}
+
+.intro{
+    margin-left: 8%;
+}
+
+h2{
+   position: absolute;
+   right: 15%;
+   color: rgb(155, 125, 103);
+   top: 10%;
+   font:  normal 1.4em georgia, sans-serif;
+font-weight: bold;
+   font-size: 1rem;
+}
+
+/* sidebar */
+nav ul {
+    line-height:2em;
+    list-style-type: none;
+    padding-left: .5em;
+    }
+
+
+.zen-resources ul{
+    line-height:2em;
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+
+.wrapper li a{
+    text-decoration: none;
+    
+    color:  rgb(51, 37, 27);
+    font-weight: bold;
+}
+
+
+
+
+
+
+h3{
+padding-top: 0;
+margin-bottom: 0;
+font: italic normal 1.4em georgia, sans-serif;
+
+}
+.summary{
+  float: left;
+  width:15%;
+  margin: 5% 1% 1.2%;
+  text-align: center;
+}
+
+/* center */
+.preamble{
+    margin-top: 3em;
+    line-height:2em;
+    margin-left: 7%;
+}
+
+.explanation{
+
+    line-height: 1.7em;
+
+}
+.participation{
+    line-height: 1.7em;
+
+}
+
+.benefits{
+    line-height: 1.7em;
+
+}
+
+.requirements{
+    line-height: 1.7em;
+
+}
+
+.main_supporting{
+    margin-left: 9%;
+}
+
+.sidebar{
+
+    position: absolute;
+    right: 0;
+    top: 21%;
+    width: 11%;
+    background-color: rgba(228, 212, 120, 0.836);
+    
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+}
+footer a{
+
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 1000;
+
+}
+a{
+    color: rgba(100, 91, 223, 0.836);
+}
