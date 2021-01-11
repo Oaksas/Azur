@@ -5,10 +5,19 @@
     font: 80% georgia, sans-serif;
     color: rgb(51, 37, 27);
     text-align: justify;
+}
 
-
+header h1{
+    color:transparent;
 
 }
+header{
+    background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
+    padding-top: 2%;
+	height: 80px;
+
+}
+
 .page-wrapper{
     background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat ;
     background-position-x: 0;
@@ -39,28 +48,52 @@ font-weight: bold;
 nav ul {
     line-height:2em;
     list-style-type: none;
-    padding-left: .5em;
+    padding-left: .9em;
     }
 
 
 .zen-resources ul{
     line-height:2em;
     list-style-type: none;
-    padding-left: 0;
+    padding-left: .9em;
+
 
 }
 
+.sidebar li{
+
+    line-height: 2em; 
+	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
+	display: block; 
+}
+
+
+.extra4{
+    background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat; 
+    position: absolute;
+    top: 5%;
+    left: 89%;
+    width: 200px;
+    height: 200px;
+
+
+}
 
 .wrapper li a{
     text-decoration: none;
     
     color:  rgb(51, 37, 27);
     font-weight: bold;
+    font-size: 0.8em;
+    font: 10px verdana, sans-serif; 
+
 }
-
-
-
-
+.wrapper h3{
+    padding: 0.8rem;
+    text-decoration:underline;
+    text-shadow: 2px honeydew ;
+    	font: 10px verdana, sans-serif; 
+}
 
 
 h3{
@@ -108,12 +141,13 @@ font: italic normal 1.4em georgia, sans-serif;
 }
 
 .sidebar{
+    
 
     position: absolute;
     right: 0;
     top: 21%;
     width: 11%;
-    background-color: rgba(228, 212, 120, 0.836);
+    background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y; 
     
 }
 
